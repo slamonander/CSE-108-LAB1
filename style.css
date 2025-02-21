@@ -57,6 +57,10 @@ th {
     background-color: aliceblue;
 }
 
+ul {
+    color: white;
+}
+
 button {
     justify-content: center;
     text-align: left;
@@ -82,4 +86,8 @@ button::after {
 
 button:hover::after {
     width: 100%; 
+}
+
+.back-btn {
+    font-size: 15px;
 }
