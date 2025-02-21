@@ -35,6 +35,10 @@ h2 {
     letter-spacing: 5px;;
 }
 
+p {
+    color: white;
+}
+
 button {
     justify-content: center;
     text-align: left;
