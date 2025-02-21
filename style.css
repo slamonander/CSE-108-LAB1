@@ -13,6 +13,10 @@ body {
     padding-right: 5%;
 }
 
+/* ----------------------------- */
+/* Parallax */
+/* ----------------------------- */
+
 .parallax{
     height: 100vh;
     background-attachment: fixed;
@@ -41,6 +45,10 @@ body {
 .parallax.pg4 {
     background-image: url("https://i.scdn.co/image/ab67616d00001e021ea0c62b2339cbf493a999ad");
 }
+
+/* ----------------------------- */
+/* Headers, paragraphs */
+/* ----------------------------- */
 
 h1 {
     text-align: center;
@@ -79,6 +87,10 @@ p {
     color: white;
 }
 
+/* ----------------------------- */
+/* Table */
+/* ----------------------------- */
+
 table {
     color: white;
     width: 100%;
@@ -95,6 +107,10 @@ th {
     color: black;
     background-color: aliceblue;
 }
+
+/* ----------------------------- */
+/* List/timeline */
+/* ----------------------------- */
 
 ol {
     list-style: none;
@@ -130,6 +146,10 @@ ol .artist {
     top: 24px;
     border-radius: 100%;
 }
+
+/* ----------------------------- */
+/* Buttons */
+/* ----------------------------- */
 
 button {
     justify-content: center;
