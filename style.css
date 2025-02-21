@@ -145,9 +145,7 @@ ol .artist {
     float: left;
     border-left: 3px white solid;
     padding-left: 30px;
-    display: flex;
     position: relative;
-    align-items: center;
 }
 
 .list-content:before {
