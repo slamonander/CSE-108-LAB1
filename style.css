@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'Inter', serif;
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -24,6 +24,7 @@ body {
 }
 
 h1 {
+    text-align: center;
     color: white;
     font-weight: 700;
     font-size: 80px;
