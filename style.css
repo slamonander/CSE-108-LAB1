@@ -13,14 +13,17 @@ body {
     padding-right: 5%;
 }
 
-.parallax {
-    background-image: url("gnx.png");
+.parallax{
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+}
+
+.parallax .pg0 {
+    background-image: url("gnx.png");
 }
 
 .parallax .pg1 {
