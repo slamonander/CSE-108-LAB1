@@ -23,6 +23,22 @@ body {
     width: 100%;
 }
 
+.parallax .pg1 {
+    background-image: url("https://i.scdn.co/image/ab67616d00001e027587213b1be294ac4000f648");
+}
+
+.parallax .pg2 {
+    background-image: url("https://i.scdn.co/image/ab67616d00001e027587213b1be294ac4000f648");
+}
+
+.parallax .pg3 {
+    background-image: url("https://i.scdn.co/image/ab67616d00001e027587213b1be294ac4000f648");
+}
+
+.parallax .pg4 {
+    background-image: url("https://i.scdn.co/image/ab67616d00001e027587213b1be294ac4000f648");
+}
+
 h1 {
     text-align: center;
     color: white;
