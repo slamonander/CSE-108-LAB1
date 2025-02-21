@@ -1,15 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 body {
+    margin: 0;
     font-family: 'Inter', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #121214;
-    height: 60vh;
+    height: 100%;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.parallax {
+    background-image: url("gnx.png");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 h1 {
@@ -19,7 +30,13 @@ h1 {
     letter-spacing: 10px;
 }
 
+h2 {
+    color: white;
+    letter-spacing: 5px;;
+}
+
 button {
+    justify-content: center;
     text-align: left;
     color: white;
     font-size: 20px;
