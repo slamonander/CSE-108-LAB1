@@ -22,24 +22,24 @@ body {
     width: 100%;
 }
 
-.parallax .pg0 {
+.parallax.pg0 {
     background-image: url("gnx.png");
 }
 
-.parallax .pg1 {
+.parallax.pg1 {
     background-image: url("https://i.scdn.co/image/ab67616d00001e027587213b1be294ac4000f648");
 }
 
-.parallax .pg2 {
-    background-image: url("https://i.scdn.co/image/ab67616d00001e027587213b1be294ac4000f648");
+.parallax.pg2 {
+    background-image: url("https://media.pitchfork.com/photos/6635224f5a584b33821e9d75/1:1/w_450%2Cc_limit/File.jpg");
 }
 
-.parallax .pg3 {
-    background-image: url("https://i.scdn.co/image/ab67616d00001e027587213b1be294ac4000f648");
+.parallax.pg3 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/e/e5/Kendrick_Lamar_-_Meet_the_Grahams.jpg");
 }
 
-.parallax .pg4 {
-    background-image: url("https://i.scdn.co/image/ab67616d00001e027587213b1be294ac4000f648");
+.parallax.pg4 {
+    background-image: url("https://i.scdn.co/image/ab67616d00001e021ea0c62b2339cbf493a999ad");
 }
 
 h1 {
