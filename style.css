@@ -40,6 +40,23 @@ p {
     color: white;
 }
 
+table {
+    color: white;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    color: black;
+    background-color: aliceblue;
+}
+
 button {
     justify-content: center;
     text-align: left;
