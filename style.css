@@ -13,6 +13,10 @@ body {
     padding-right: 5%;
 }
 
+div .bunchofbuttons {
+    margin-bottom: 20px;
+}
+
 /* ----------------------------- */
 /* Parallax */
 /* ----------------------------- */
@@ -60,27 +64,32 @@ h1 {
 
 h2 {
     color: white;
-    letter-spacing: 5px;;
+    letter-spacing: 5px;
+    margin-top: 50px;
 }
 
 .subtitle-lyric1 {
     color: rgb(238, 212, 17);
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .subtitle-lyric2 {
     color: rgb(37, 17, 216);
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .subtitle-lyric3 {
     color: rgb(231, 34, 37);
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .subtitle-lyric4 {
     color: rgb(29, 240, 188);
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 p {
@@ -115,11 +124,15 @@ th {
 ol {
     list-style: none;
     padding-left: 0;
+    margin: 0;
 }
 
 ol > li {
     margin-bottom: 60px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
 
 ol .artist {
@@ -153,14 +166,15 @@ ol .artist {
 
 button {
     justify-content: center;
-    text-align: left;
+    text-align: right;
+    font-weight: bold;
     color: white;
     font-size: 20px;
     background-color: transparent;
     border: none;
     padding: 15px 35px;
     position: relative;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 
 button::after {
